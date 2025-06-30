@@ -1,0 +1,36 @@
+baseURL = 'https://winkkyfarms.com/'
+languageCode = 'en-us'
+title = 'Winkky Farms'
+theme = 'ananke'
+
+[params]
+  subtitle = "Family Farm & Agricultural Heritage"
+  author = "Winkky Farms"
+  description = "Sharing the story of our family farm - from crop seasons and livestock to sustainable farming practices and rural life."
+  featured_image = "/images/farm-hero.jpg"
+  
+[menu]
+  [[menu.main]]
+    name = "Crops"
+    url = "/categories/crops/"
+    weight = 1
+  [[menu.main]]
+    name = "Livestock"
+    url = "/categories/livestock/"
+    weight = 2
+  [[menu.main]]
+    name = "Seasons"
+    url = "/categories/seasons/"
+    weight = 3
+  [[menu.main]]
+    name = "Farm Life"
+    url = "/categories/farm-life/"
+    weight = 4
+  [[menu.main]]
+    name = "History"
+    url = "/categories/history/"
+    weight = 5
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 6
