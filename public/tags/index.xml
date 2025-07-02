@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Winkky Farms</title>
+    <link>http://localhost:1316/tags/</link>
+    <description>Recent content in Tags on Winkky Farms</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 Jun 2025 22:51:00 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1316/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agriculture</title>
+      <link>http://localhost:1316/tags/agriculture/</link>
+      <pubDate>Sun, 29 Jun 2025 22:51:00 -0400</pubDate>
+      <guid>http://localhost:1316/tags/agriculture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Family-Farm</title>
+      <link>http://localhost:1316/tags/family-farm/</link>
+      <pubDate>Sun, 29 Jun 2025 22:51:00 -0400</pubDate>
+      <guid>http://localhost:1316/tags/family-farm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Welcome</title>
+      <link>http://localhost:1316/tags/welcome/</link>
+      <pubDate>Sun, 29 Jun 2025 22:51:00 -0400</pubDate>
+      <guid>http://localhost:1316/tags/welcome/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Agriculture on Winkky Farms</title>
+    <link>http://localhost:1316/tags/agriculture/</link>
+    <description>Recent content in Agriculture on Winkky Farms</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 Jun 2025 22:51:00 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1316/tags/agriculture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome to Winkky Farms</title>
+      <link>http://localhost:1316/posts/welcome-to-the-farm/</link>
+      <pubDate>Sun, 29 Jun 2025 22:51:00 -0400</pubDate>
+      <guid>http://localhost:1316/posts/welcome-to-the-farm/</guid>
+      <description>&lt;p&gt;Welcome to Winkky Farms, where generations of farming tradition meet modern sustainable practices.&lt;/p&gt;&#xA;&lt;p&gt;Our family farm has been nurturing the land and feeding our community for decades. Here you&amp;rsquo;ll find stories from our fields, updates on our crops and livestock, and insights into the rhythms of farm life that mark each passing season.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-youll-find-here&#34;&gt;What You&amp;rsquo;ll Find Here&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;🌾 Crop Reports&lt;/strong&gt;: Updates on what we&amp;rsquo;re planting, growing, and harvesting throughout the year&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

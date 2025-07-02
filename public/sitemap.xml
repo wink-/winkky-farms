@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1316/about/</loc>
+    <lastmod>2025-06-29T22:51:01-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1316/</loc>
+    <lastmod>2025-06-29T22:51:01-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1316/tags/agriculture/</loc>
+    <lastmod>2025-06-29T22:51:00-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1316/categories/</loc>
+    <lastmod>2025-06-29T22:51:00-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1316/tags/family-farm/</loc>
+    <lastmod>2025-06-29T22:51:00-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1316/categories/farm-life/</loc>
+    <lastmod>2025-06-29T22:51:00-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1316/posts/</loc>
+    <lastmod>2025-06-29T22:51:00-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1316/tags/</loc>
+    <lastmod>2025-06-29T22:51:00-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1316/tags/welcome/</loc>
+    <lastmod>2025-06-29T22:51:00-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1316/posts/welcome-to-the-farm/</loc>
+    <lastmod>2025-06-29T22:51:00-04:00</lastmod>
+  </url>
+</urlset>

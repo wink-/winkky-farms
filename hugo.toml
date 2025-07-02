@@ -4,18 +4,19 @@ title = 'Winkky Farms'
 theme = 'ananke'
 
 [params]
-  subtitle = "Family Farm & Agricultural Heritage"
-  author = "Winkky Farms"
-  description = "Sharing the story of our family farm - from crop seasons and livestock to sustainable farming practices and rural life."
-  featured_image = "/images/farm-hero.jpg"
+  subtitle = "Where Family, Land, and Tradition Meet"
+  author = "The Winkky Family"
+  description = "Three generations of farming wisdom, seasonal stories from the fields, and the simple joys of life lived close to the land. Welcome to our corner of the world."
+  featured_image = "/images/farm-sunrise.jpg"
+  background_color_class = "bg-washed-green"
   
 [menu]
   [[menu.main]]
-    name = "Crops"
+    name = "The Fields"
     url = "/categories/crops/"
     weight = 1
   [[menu.main]]
-    name = "Livestock"
+    name = "The Animals"
     url = "/categories/livestock/"
     weight = 2
   [[menu.main]]
@@ -23,14 +24,14 @@ theme = 'ananke'
     url = "/categories/seasons/"
     weight = 3
   [[menu.main]]
-    name = "Farm Life"
+    name = "Farm Stories"
     url = "/categories/farm-life/"
     weight = 4
   [[menu.main]]
-    name = "History"
+    name = "Our Roots"
     url = "/categories/history/"
     weight = 5
   [[menu.main]]
-    name = "About"
+    name = "The Family"
     url = "/about/"
     weight = 6
