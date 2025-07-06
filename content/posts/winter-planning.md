@@ -19,9 +19,9 @@ This is planning season.
 
 Every January, our kitchen table disappears under a pile of seed catalogs, equipment brochures, soil test results, and last year's records. This is where we plan the coming year, dream about improvements, and make the decisions that will shape our next growing season.
 
-{{< season-update season="winter" title="Planning Mode Activated" date="January 2024" >}}
+**Planning Mode Activated - January 2024**
+
 The fields may be sleeping under snow, but our minds are already working on spring. Time to turn dreams into plans and plans into action.
-{{< /season-update >}}
 
 ## Crop Planning: The Foundation of Everything
 

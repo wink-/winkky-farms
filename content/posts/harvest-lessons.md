@@ -60,9 +60,9 @@ As we clean up the equipment and start thinking about next year, we're already m
 
 And we're thinking bigger picture too. This harvest gave us enough cushion to start planning for the farm tours we want to offer next spring. There's something about sharing this life that makes the work even more meaningful.
 
-{{< season-update season="fall" title="Winter Prep Begins" date="November 2024" >}}
+**Winter Prep Begins - November 2024**
+
 With harvest complete, we're shifting into winter mode. Equipment maintenance, planning next year's crops, and getting ready for the quiet months when the land rests and we plan.
-{{< /season-update >}}
 
 ## The Real Harvest
 

@@ -2,17 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Winkky Farms</title>
-    <link>http://localhost:1314/categories/</link>
+    <link>https://winkkyfarms.com/categories/</link>
     <description>Recent content in Categories on Winkky Farms</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 30 Jun 2025 23:30:54 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1314/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://winkkyfarms.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Farm-Life</title>
-      <link>http://localhost:1314/categories/farm-life/</link>
+      <link>https://winkkyfarms.com/categories/farm-life/</link>
       <pubDate>Mon, 30 Jun 2025 23:30:54 -0400</pubDate>
-      <guid>http://localhost:1314/categories/farm-life/</guid>
+      <guid>https://winkkyfarms.com/categories/farm-life/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Crops</title>
+      <link>https://winkkyfarms.com/categories/crops/</link>
+      <pubDate>Tue, 15 Oct 2024 06:30:00 -0400</pubDate>
+      <guid>https://winkkyfarms.com/categories/crops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Seasons</title>
+      <link>https://winkkyfarms.com/categories/seasons/</link>
+      <pubDate>Tue, 15 Oct 2024 06:30:00 -0400</pubDate>
+      <guid>https://winkkyfarms.com/categories/seasons/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Home-Improvement</title>
+      <link>https://winkkyfarms.com/categories/home-improvement/</link>
+      <pubDate>Sat, 10 Aug 2024 14:30:00 -0400</pubDate>
+      <guid>https://winkkyfarms.com/categories/home-improvement/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Family</title>
+      <link>https://winkkyfarms.com/categories/family/</link>
+      <pubDate>Mon, 22 Jul 2024 19:30:00 -0400</pubDate>
+      <guid>https://winkkyfarms.com/categories/family/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Infrastructure</title>
+      <link>https://winkkyfarms.com/categories/infrastructure/</link>
+      <pubDate>Fri, 15 Mar 2024 09:20:00 -0400</pubDate>
+      <guid>https://winkkyfarms.com/categories/infrastructure/</guid>
       <description></description>
     </item>
   </channel>

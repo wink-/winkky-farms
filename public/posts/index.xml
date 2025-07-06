@@ -2,25 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Winkky Farms</title>
-    <link>http://localhost:1314/posts/</link>
+    <link>https://winkkyfarms.com/posts/</link>
     <description>Recent content in Posts on Winkky Farms</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 30 Jun 2025 23:30:54 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1314/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://winkkyfarms.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Morning Chores: The Best Part of My Day</title>
-      <link>http://localhost:1314/posts/morning-chores/</link>
+      <link>https://winkkyfarms.com/posts/morning-chores/</link>
       <pubDate>Mon, 30 Jun 2025 23:30:54 -0400</pubDate>
-      <guid>http://localhost:1314/posts/morning-chores/</guid>
+      <guid>https://winkkyfarms.com/posts/morning-chores/</guid>
       <description>&lt;h1 id=&#34;530-am-and-all-is-well&#34;&gt;5:30 AM and All is Well&lt;/h1&gt;&#xA;&lt;p&gt;The alarm goes off, but I&amp;rsquo;m already awake. Farm life does that to you - your body learns the rhythm of the land, the needs of the animals, the pull of responsibility that never sleeps.&lt;/p&gt;&#xA;&lt;p&gt;I slip out of bed, trying not to wake Sarah (though she usually stirs anyway - twenty years of marriage to a farmer teaches you to sleep light). The coffee&amp;rsquo;s already programmed from last night. First cup goes in the travel mug, second cup stays warm for when I come back in.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Welcome to Winkky Farms</title>
-      <link>http://localhost:1314/posts/welcome-to-the-farm/</link>
+      <link>https://winkkyfarms.com/posts/welcome-to-the-farm/</link>
       <pubDate>Sun, 29 Jun 2025 22:51:00 -0400</pubDate>
-      <guid>http://localhost:1314/posts/welcome-to-the-farm/</guid>
+      <guid>https://winkkyfarms.com/posts/welcome-to-the-farm/</guid>
       <description>&lt;p&gt;Welcome to Winkky Farms, where generations of farming tradition meet modern sustainable practices.&lt;/p&gt;&#xA;&lt;p&gt;Our family farm has been nurturing the land and feeding our community for decades. Here you&amp;rsquo;ll find stories from our fields, updates on our crops and livestock, and insights into the rhythms of farm life that mark each passing season.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-youll-find-here&#34;&gt;What You&amp;rsquo;ll Find Here&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;🌾 Crop Reports&lt;/strong&gt;: Updates on what we&amp;rsquo;re planting, growing, and harvesting throughout the year&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Harvest Lessons: What the Fields Taught Us This Year</title>
+      <link>https://winkkyfarms.com/posts/harvest-lessons/</link>
+      <pubDate>Tue, 15 Oct 2024 06:30:00 -0400</pubDate>
+      <guid>https://winkkyfarms.com/posts/harvest-lessons/</guid>
+      <description>&lt;h1 id=&#34;what-october-taught-us-about-farming-and-life&#34;&gt;What October Taught Us About Farming and Life&lt;/h1&gt;&#xA;&lt;p&gt;The combines have been rolling for three weeks now, and as I write this, the last of our soybeans are coming out of the north field. There&amp;rsquo;s something magical about harvest time - it&amp;rsquo;s when all the year&amp;rsquo;s work, worry, and hope gets measured in bushels per acre and the weight of grain in the bin.&lt;/p&gt;&#xA;&lt;p&gt;This year&amp;rsquo;s harvest wasn&amp;rsquo;t our biggest, but it might have been our most educational.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Raising Farm Kids: Lessons from the Barn to the Classroom</title>
+      <link>https://winkkyfarms.com/posts/farm-kids/</link>
+      <pubDate>Mon, 22 Jul 2024 19:30:00 -0400</pubDate>
+      <guid>https://winkkyfarms.com/posts/farm-kids/</guid>
+      <description>&lt;h1 id=&#34;growing-up-with-dirt-under-their-nails&#34;&gt;Growing Up with Dirt Under Their Nails&lt;/h1&gt;&#xA;&lt;p&gt;Emma is 8 and Jake is 16, and they&amp;rsquo;re growing up in a world that&amp;rsquo;s very different from the one Bill and I knew as kids. But some things about farm life remain beautifully unchanged - the lessons, the values, and the connection to something bigger than yourself.&lt;/p&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s what it really means to raise kids on a farm in 2024.&lt;/p&gt;&#xA;&lt;h2 id=&#34;morning-responsibilities&#34;&gt;Morning Responsibilities&lt;/h2&gt;&#xA;&lt;p&gt;Before most kids their age are even awake, our children have chores. Not because we&amp;rsquo;re mean parents, but because 23 head of cattle and 50 chickens don&amp;rsquo;t care that it&amp;rsquo;s Saturday morning or summer vacation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Spring Planting Begins: Hope in Every Seed</title>
+      <link>https://winkkyfarms.com/posts/spring-planting-begins/</link>
+      <pubDate>Sat, 20 Apr 2024 07:15:00 -0400</pubDate>
+      <guid>https://winkkyfarms.com/posts/spring-planting-begins/</guid>
+      <description>&lt;h1 id=&#34;the-most-hopeful-time-of-year&#34;&gt;The Most Hopeful Time of Year&lt;/h1&gt;&#xA;&lt;p&gt;There&amp;rsquo;s something almost sacred about spring planting. After months of planning, equipment maintenance, and watching the weather, we finally get to put seeds in the ground. Each one carries our hopes for the year ahead.&lt;/p&gt;&#xA;&lt;h2 id=&#34;soil-conditions-finally-ready&#34;&gt;Soil Conditions: Finally Ready&lt;/h2&gt;&#xA;&lt;p&gt;We&amp;rsquo;ve been waiting for the soil to dry out enough for planting, and this week it finally happened. The old-timers have a saying: &amp;ldquo;When you can make a good mud ball that crumbles when you drop it, the soil&amp;rsquo;s ready.&amp;rdquo; Grandpa Bill still does this test every spring, even though we have fancy moisture meters now.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Winter Planning: Dreaming and Scheming for the Year Ahead</title>
+      <link>https://winkkyfarms.com/posts/winter-planning/</link>
+      <pubDate>Mon, 15 Jan 2024 08:00:00 -0500</pubDate>
+      <guid>https://winkkyfarms.com/posts/winter-planning/</guid>
+      <description>&lt;h1 id=&#34;the-quiet-season&#34;&gt;The Quiet Season&lt;/h1&gt;&#xA;&lt;p&gt;Snow covers the fields, the equipment sits idle in the shed, and the pace of farm life slows to something almost resembling normal. But don&amp;rsquo;t let the quiet fool you - winter is when some of our most important work happens.&lt;/p&gt;&#xA;&lt;p&gt;This is planning season.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-kitchen-table-becomes-mission-control&#34;&gt;The Kitchen Table Becomes Mission Control&lt;/h2&gt;&#xA;&lt;p&gt;Every January, our kitchen table disappears under a pile of seed catalogs, equipment brochures, soil test results, and last year&amp;rsquo;s records. This is where we plan the coming year, dream about improvements, and make the decisions that will shape our next growing season.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
