@@ -45,8 +45,24 @@
 
 **Total Classes**: $3,020
 
-### **Grand Total Year 1: $12,495** ✅
-*Exceeds $10,000 requirement with buffer*
+#### **Revenue Stream 4: Affiliate Marketing ($500-1,500)**
+*Passive income from tool/product recommendations*
+
+**Primary Focus: Workpro Tools on Amazon**
+- **Garden tool recommendations** on website and blog
+- **Class handouts** with "tools we use" lists
+- **Email newsletter** seasonal tool recommendations
+- **Social media** posts showing tools in action
+
+**Estimated Earnings:**
+- **Amazon Associates**: 3-8% commission on sales
+- **Target**: $500-1,500 annually from affiliate links
+- **Strategy**: Authentic recommendations based on actual farm use
+
+**Total Affiliate Income**: $500-1,500
+
+### **Grand Total Year 1: $13,000-15,000** ✅
+*Significantly exceeds $10,000 requirement with multiple income streams*
 
 ---
 
