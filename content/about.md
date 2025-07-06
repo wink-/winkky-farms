@@ -11,7 +11,7 @@ Where innovation meets tradition, and sometimes farmers become ballroom dancers.
 
 ## Our Story
 
-Winkky Farms has been our family's passion for over four decades, but our story begins with one man's vision and ends with a surprising twist that perfectly captures the spirit of following your dreams.
+Winkky Farms began in 1980 with one man's vision and continues today with a surprising twist that perfectly captures the spirit of following your dreams.
 
 ### The Uncle Dick Era (1980-2010s)
 

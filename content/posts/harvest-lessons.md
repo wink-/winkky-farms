@@ -19,11 +19,11 @@ This year's harvest wasn't our biggest, but it might have been our most educatio
 
 Our corn averaged 180 bushels per acre this year - not record-breaking, but solid. What made it special was how it got there. We had a late spring that had us worried, a dry July that had us praying, and an August that delivered just enough rain at just the right time.
 
-{{< farm-highlight title="Grandpa's Wisdom" >}}
-"The corn doesn't read the weather forecast," Grandpa Bill always says. "It just grows with what it gets." This year proved him right again.
-{{< /farm-highlight >}}
+**Uncle Dick's Wisdom**
 
-The field closest to the house - the one Great-Grandpa Joe cleared by hand in 1953 - gave us our best yield. There's something about that old ground that just knows how to grow corn. Maybe it's the decades of crop rotation, maybe it's the way the morning sun hits it, or maybe it's just the accumulated wisdom of 70 years of farming.
+"The corn doesn't read the weather forecast," Uncle Dick always said. "It just grows with what it gets." This year proved him right again.
+
+The field closest to the house - the one Uncle Dick first planted in 1980 - gave us our best yield. There's something about that old ground that just knows how to grow corn. Maybe it's the decades of crop rotation, maybe it's the way the morning sun hits it, or maybe it's just the accumulated wisdom of Uncle Dick's innovative farming methods.
 
 ## Soybeans and Surprises
 
@@ -49,7 +49,7 @@ Here's what the books will show for 2024:
 - **Hay**: 127 round bales (our best year yet)
 
 But the books won't show:
-- The morning Dad and I watched a family of deer feeding in the standing corn
+- The morning we watched a family of deer feeding in the standing corn
 - The afternoon thunderstorm that caught us in the field and reminded us who's really in charge
 - The satisfaction of filling the grain bins with our own harvest
 - The exhaustion that feels good because it comes from meaningful work

@@ -105,7 +105,7 @@ We're not pressuring either child to take over the farm, but we are making sure 
 
 **Jake's current thinking**: Interested in agricultural engineering - combining his love of farming with his aptitude for technology. He might farm, or he might design equipment for farmers.
 
-**Emma's current thinking**: Changes weekly between veterinarian, teacher, and "farmer like Grandpa." We'll see where her interests lead.
+**Emma's current thinking**: Changes weekly between veterinarian, teacher, and "farmer like Uncle Dick." We'll see where her interests lead.
 
 ## Teaching Moments Everywhere
 

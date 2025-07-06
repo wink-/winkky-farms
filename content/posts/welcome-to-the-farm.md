@@ -6,9 +6,13 @@ categories = ['farm-life']
 tags = ['welcome', 'family-farm', 'agriculture']
 +++
 
-Welcome to Winkky Farms, where generations of farming tradition meet modern sustainable practices.
+Welcome to Winkky Farms, where Uncle Dick's innovative farming legacy meets modern sustainable practices.
 
-Our family farm has been nurturing the land and feeding our community for decades. Here you'll find stories from our fields, updates on our crops and livestock, and insights into the rhythms of farm life that mark each passing season.
+## Our Story
+
+Winkky Farms began in 1980 when Uncle Dick Winkky looked at this land and saw possibility. What started with innovative pig farming and community partnerships has evolved into a modern homestead operation that feeds our family and our community.
+
+Uncle Dick built this farm on the principles of innovation, sustainability, and community connection. After decades of raising Swedish-style pigs and working with local farmers, he surprised everyone by retiring to pursue ballroom dancing. Now it's our turn to carry on his innovative tradition while looking toward the future.
 
 ## What You'll Find Here
 
@@ -20,10 +24,19 @@ Our family farm has been nurturing the land and feeding our community for decade
 
 **🚜 Farm Operations**: The day-to-day work that keeps our farm running and productive
 
-**📚 Family History**: Stories and photos from past generations who worked this same land
+**🕺 Uncle Dick's Legacy**: Stories and wisdom from our farm's innovative founder
 
-**🌱 Sustainable Practices**: How we balance tradition with modern conservation methods
+**🌱 Sustainable Practices**: How we balance Uncle Dick's innovative spirit with modern conservation methods
 
-Whether you're interested in agriculture, curious about where your food comes from, or just enjoy stories of rural life, we're glad you're here. Pull up a chair on the porch and stay a while.
+## Uncle Dick's Philosophy Lives On
+
+Every decision we make on the farm starts with the question: "What would Uncle Dick do?" Usually, the answer involves:
+- Thinking outside the box
+- Prioritizing animal welfare
+- Building community partnerships
+- Finding creative solutions to common problems
+- Never being afraid to try something new
+
+Whether you're interested in agriculture, curious about where your food comes from, or just enjoy stories of rural innovation, we're glad you're here. Pull up a chair on the porch and stay a while - Uncle Dick always said the best farming wisdom comes from good conversation.
 
 Welcome to the farm family!
