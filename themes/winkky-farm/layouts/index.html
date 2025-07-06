@@ -1,0 +1,163 @@
+{{ define "main" }}
+
+<!-- Hero Section -->
+<section class="relative h-screen flex items-center justify-center overflow-hidden">
+    <!-- Background Image with Overlay -->
+    <div class="absolute inset-0 bg-gradient-to-r from-green-800/80 to-green-600/80"></div>
+    <div class="absolute inset-0 bg-cover bg-center bg-no-repeat farm-pattern"></div>
+    
+    <!-- Hero Content -->
+    <div class="relative z-10 text-center text-white px-4 max-w-4xl mx-auto">
+        <h1 class="text-5xl md:text-7xl font-bold mb-6 text-shadow float-animation">
+            Welcome to {{ .Site.Title }}
+        </h1>
+        <p class="text-xl md:text-2xl mb-8 text-shadow leading-relaxed">
+            {{ .Site.Params.subtitle }}
+        </p>
+        <p class="text-lg md:text-xl mb-12 text-stone-100 max-w-3xl mx-auto leading-relaxed">
+            {{ .Site.Params.description }}
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="/about" class="btn-primary text-lg px-8 py-4">
+                Meet Our Family
+            </a>
+            <a href="/posts" class="btn-secondary text-lg px-8 py-4">
+                Read Our Stories
+            </a>
+        </div>
+    </div>
+    
+    <!-- Scroll Indicator -->
+    <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white animate-bounce">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+        </svg>
+    </div>
+</section>
+
+<!-- What We Do Section -->
+<section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+            <h2 class="text-4xl md:text-5xl font-bold text-stone-900 mb-6">Life on the Farm</h2>
+            <p class="text-xl text-stone-600 max-w-3xl mx-auto leading-relaxed">
+                From sunrise chores to harvest celebrations, discover the rhythm of farm life through our stories, our work, and our love for the land.
+            </p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Crops -->
+            <div class="card p-8 text-center hover:shadow-xl transition-shadow duration-300">
+                <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                    <svg class="w-8 h-8 text-green-700" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"/>
+                    </svg>
+                </div>
+                <h3 class="text-2xl font-bold text-stone-900 mb-4">🌽 Our Crops</h3>
+                <p class="text-stone-600 leading-relaxed">
+                    From sweet corn that feeds our family to soybeans that sustain our community, we grow with purpose and care for every seed.
+                </p>
+            </div>
+            
+            <!-- Livestock -->
+            <div class="card p-8 text-center hover:shadow-xl transition-shadow duration-300">
+                <div class="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                    <svg class="w-8 h-8 text-amber-700" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                    </svg>
+                </div>
+                <h3 class="text-2xl font-bold text-stone-900 mb-4">🐄 Our Animals</h3>
+                <p class="text-stone-600 leading-relaxed">
+                    Our cattle, chickens, and pigs aren't just livestock—they're part of our family, each with their own personality and story.
+                </p>
+            </div>
+            
+            <!-- Traditions -->
+            <div class="card p-8 text-center hover:shadow-xl transition-shadow duration-300">
+                <div class="w-16 h-16 bg-stone-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                    <svg class="w-8 h-8 text-stone-700" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                    </svg>
+                </div>
+                <h3 class="text-2xl font-bold text-stone-900 mb-4">📚 Our Heritage</h3>
+                <p class="text-stone-600 leading-relaxed">
+                    Three generations of farming wisdom, passed down through stories, hard work, and an unbreakable connection to the land.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Recent Posts Section -->
+<section class="py-20 bg-stone-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+            <h2 class="text-4xl md:text-5xl font-bold text-stone-900 mb-6">Stories from the Field</h2>
+            <p class="text-xl text-stone-600 max-w-3xl mx-auto leading-relaxed">
+                Follow along with our daily adventures, seasonal updates, and the timeless wisdom that comes from working the land.
+            </p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {{ range first 3 (where .Site.RegularPages "Type" "posts") }}
+            <article class="card hover:shadow-xl transition-shadow duration-300">
+                {{ if .Params.featured_image }}
+                <img src="{{ .Params.featured_image }}" alt="{{ .Title }}" class="w-full h-48 object-cover">
+                {{ else }}
+                <div class="w-full h-48 bg-gradient-to-br from-green-400 to-green-600 flex items-center justify-center">
+                    <svg class="w-16 h-16 text-white opacity-50" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z"/>
+                    </svg>
+                </div>
+                {{ end }}
+                <div class="p-6">
+                    <div class="flex items-center text-sm text-stone-500 mb-3">
+                        <time datetime="{{ .Date.Format "2006-01-02" }}">
+                            {{ .Date.Format "January 2, 2006" }}
+                        </time>
+                        {{ if .Params.categories }}
+                        <span class="mx-2">•</span>
+                        <span class="text-green-600">{{ index .Params.categories 0 | title }}</span>
+                        {{ end }}
+                    </div>
+                    <h3 class="text-xl font-bold text-stone-900 mb-3 hover:text-green-700 transition-colors">
+                        <a href="{{ .Permalink }}">{{ .Title }}</a>
+                    </h3>
+                    <p class="text-stone-600 leading-relaxed mb-4">
+                        {{ .Summary | truncate 120 }}
+                    </p>
+                    <a href="{{ .Permalink }}" class="text-green-700 hover:text-green-800 font-semibold transition-colors">
+                        Read More →
+                    </a>
+                </div>
+            </article>
+            {{ end }}
+        </div>
+        
+        <div class="text-center mt-12">
+            <a href="/posts" class="btn-primary text-lg px-8 py-4">
+                View All Stories
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Call to Action Section -->
+<section class="py-20 bg-green-700 text-white">
+    <div class="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
+        <h2 class="text-4xl md:text-5xl font-bold mb-6">Come Visit the Farm</h2>
+        <p class="text-xl mb-8 leading-relaxed opacity-90">
+            The coffee's always on, and there's always something happening around here. Whether you're curious about farming, interested in our future classes, or just want to say hello, you're always welcome.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="/about" class="bg-white text-green-700 hover:bg-stone-100 font-semibold py-3 px-8 rounded-lg transition-colors duration-200 shadow-md hover:shadow-lg">
+                Learn About Us
+            </a>
+            <a href="#contact" class="border-2 border-white text-white hover:bg-white hover:text-green-700 font-semibold py-3 px-8 rounded-lg transition-colors duration-200">
+                Get Directions
+            </a>
+        </div>
+    </div>
+</section>
+
+{{ end }}

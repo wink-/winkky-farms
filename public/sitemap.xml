@@ -2,34 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1316/about/</loc>
+    <loc>http://localhost:1314/posts/</loc>
+    <lastmod>2025-06-30T23:30:55-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1314/</loc>
+    <lastmod>2025-06-30T23:30:55-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1314/categories/</loc>
+    <lastmod>2025-06-30T23:30:54-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1314/tags/daily-life/</loc>
+    <lastmod>2025-06-30T23:30:54-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1314/categories/farm-life/</loc>
+    <lastmod>2025-06-30T23:30:54-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1314/tags/livestock/</loc>
+    <lastmod>2025-06-30T23:30:54-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1314/posts/morning-chores/</loc>
+    <lastmod>2025-06-30T23:30:54-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1314/tags/routine/</loc>
+    <lastmod>2025-06-30T23:30:54-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1314/tags/</loc>
+    <lastmod>2025-06-30T23:30:54-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1314/projects/</loc>
+    <lastmod>2025-06-30T23:27:23-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1314/about/</loc>
     <lastmod>2025-06-29T22:51:01-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1316/</loc>
-    <lastmod>2025-06-29T22:51:01-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1316/tags/agriculture/</loc>
+    <loc>http://localhost:1314/tags/agriculture/</loc>
     <lastmod>2025-06-29T22:51:00-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1316/categories/</loc>
+    <loc>http://localhost:1314/tags/family-farm/</loc>
     <lastmod>2025-06-29T22:51:00-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1316/tags/family-farm/</loc>
+    <loc>http://localhost:1314/tags/welcome/</loc>
     <lastmod>2025-06-29T22:51:00-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1316/categories/farm-life/</loc>
-    <lastmod>2025-06-29T22:51:00-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1316/posts/</loc>
-    <lastmod>2025-06-29T22:51:00-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1316/tags/</loc>
-    <lastmod>2025-06-29T22:51:00-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1316/tags/welcome/</loc>
-    <lastmod>2025-06-29T22:51:00-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1316/posts/welcome-to-the-farm/</loc>
+    <loc>http://localhost:1314/posts/welcome-to-the-farm/</loc>
     <lastmod>2025-06-29T22:51:00-04:00</lastmod>
   </url>
 </urlset>

@@ -1,13 +1,13 @@
 baseURL = 'https://winkkyfarms.com/'
 languageCode = 'en-us'
 title = 'Winkky Farms'
-theme = 'ananke'
+theme = 'winkky-farm'
 
 [params]
   subtitle = "Where Family, Land, and Tradition Meet"
   author = "The Winkky Family"
   description = "Three generations of farming wisdom, seasonal stories from the fields, and the simple joys of life lived close to the land. Welcome to our corner of the world."
-  featured_image = "/images/farm-sunrise.jpg"
+  featured_image = "/images/placeholder.svg"
   background_color_class = "bg-washed-green"
   
 [menu]

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Winkky Farms</title>
-    <link>http://localhost:1316/categories/</link>
+    <link>http://localhost:1314/categories/</link>
     <description>Recent content in Categories on Winkky Farms</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Jun 2025 22:51:00 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1316/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Jun 2025 23:30:54 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1314/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Farm-Life</title>
-      <link>http://localhost:1316/categories/farm-life/</link>
-      <pubDate>Sun, 29 Jun 2025 22:51:00 -0400</pubDate>
-      <guid>http://localhost:1316/categories/farm-life/</guid>
+      <link>http://localhost:1314/categories/farm-life/</link>
+      <pubDate>Mon, 30 Jun 2025 23:30:54 -0400</pubDate>
+      <guid>http://localhost:1314/categories/farm-life/</guid>
       <description></description>
     </item>
   </channel>

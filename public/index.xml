@@ -2,24 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Winkky Farms</title>
-    <link>http://localhost:1316/</link>
+    <link>http://localhost:1314/</link>
     <description>Recent content on Winkky Farms</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Jun 2025 22:51:01 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1316/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Jun 2025 23:30:54 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1314/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About</title>
-      <link>http://localhost:1316/about/</link>
+      <title>Morning Chores: The Best Part of My Day</title>
+      <link>http://localhost:1314/posts/morning-chores/</link>
+      <pubDate>Mon, 30 Jun 2025 23:30:54 -0400</pubDate>
+      <guid>http://localhost:1314/posts/morning-chores/</guid>
+      <description>&lt;h1 id=&#34;530-am-and-all-is-well&#34;&gt;5:30 AM and All is Well&lt;/h1&gt;&#xA;&lt;p&gt;The alarm goes off, but I&amp;rsquo;m already awake. Farm life does that to you - your body learns the rhythm of the land, the needs of the animals, the pull of responsibility that never sleeps.&lt;/p&gt;&#xA;&lt;p&gt;I slip out of bed, trying not to wake Sarah (though she usually stirs anyway - twenty years of marriage to a farmer teaches you to sleep light). The coffee&amp;rsquo;s already programmed from last night. First cup goes in the travel mug, second cup stays warm for when I come back in.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Meet the Winkky Family</title>
+      <link>http://localhost:1314/about/</link>
       <pubDate>Sun, 29 Jun 2025 22:51:01 -0400</pubDate>
-      <guid>http://localhost:1316/about/</guid>
-      <description></description>
+      <guid>http://localhost:1314/about/</guid>
+      <description>&lt;h1 id=&#34;three-generations-one-love-for-the-land&#34;&gt;Three Generations, One Love for the Land&lt;/h1&gt;&#xA;&lt;p&gt;Winkky Farms has been in our family since 1952, when Great-Grandpa Joe bought these 80 acres with dreams bigger than his bank account and a work ethic that could move mountains. Today, three generations later, we&amp;rsquo;re still here - still farming, still learning, still falling in love with this land every sunrise.&lt;/p&gt;&#xA;&lt;h2 id=&#34;our-story&#34;&gt;Our Story&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;The Beginning (1950s)&lt;/strong&gt;&lt;br&gt;&#xA;Great-Grandpa Joe and Great-Grandma Ruth started with nothing but determination and a handful of chickens. They built the original farmhouse with their own hands, cleared fields stone by stone, and established the foundation that we build on today.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Welcome to Winkky Farms</title>
-      <link>http://localhost:1316/posts/welcome-to-the-farm/</link>
+      <link>http://localhost:1314/posts/welcome-to-the-farm/</link>
       <pubDate>Sun, 29 Jun 2025 22:51:00 -0400</pubDate>
-      <guid>http://localhost:1316/posts/welcome-to-the-farm/</guid>
+      <guid>http://localhost:1314/posts/welcome-to-the-farm/</guid>
       <description>&lt;p&gt;Welcome to Winkky Farms, where generations of farming tradition meet modern sustainable practices.&lt;/p&gt;&#xA;&lt;p&gt;Our family farm has been nurturing the land and feeding our community for decades. Here you&amp;rsquo;ll find stories from our fields, updates on our crops and livestock, and insights into the rhythms of farm life that mark each passing season.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-youll-find-here&#34;&gt;What You&amp;rsquo;ll Find Here&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;🌾 Crop Reports&lt;/strong&gt;: Updates on what we&amp;rsquo;re planting, growing, and harvesting throughout the year&lt;/p&gt;</description>
     </item>
   </channel>

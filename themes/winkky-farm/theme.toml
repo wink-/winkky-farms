@@ -1,0 +1,12 @@
+name = "Winkky Farm"
+license = "MIT"
+licenselink = "https://github.com/yourname/winkky-farm/blob/master/LICENSE"
+description = "A beautiful, modern farm-focused Hugo theme with Tailwind CSS"
+homepage = "https://github.com/yourname/winkky-farm"
+tags = ["blog", "farm", "agriculture", "tailwind", "responsive"]
+features = ["responsive", "tailwind", "modern", "farm-focused"]
+min_version = "0.112.0"
+
+[author]
+  name = "Winkky Farms"
+  homepage = "https://winkkyfarms.com"
