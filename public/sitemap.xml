@@ -2,49 +2,181 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1314/posts/</loc>
-    <lastmod>2025-06-30T23:30:55-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1314/</loc>
-    <lastmod>2025-06-30T23:30:55-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1314/categories/</loc>
+    <loc>https://winkkyfarms.com/categories/</loc>
     <lastmod>2025-06-30T23:30:54-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1314/tags/daily-life/</loc>
+    <loc>https://winkkyfarms.com/tags/daily-life/</loc>
     <lastmod>2025-06-30T23:30:54-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1314/categories/farm-life/</loc>
+    <loc>https://winkkyfarms.com/categories/farm-life/</loc>
     <lastmod>2025-06-30T23:30:54-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1314/tags/livestock/</loc>
+    <loc>https://winkkyfarms.com/tags/livestock/</loc>
     <lastmod>2025-06-30T23:30:54-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1314/posts/morning-chores/</loc>
+    <loc>https://winkkyfarms.com/posts/morning-chores/</loc>
     <lastmod>2025-06-30T23:30:54-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1314/tags/routine/</loc>
+    <loc>https://winkkyfarms.com/posts/</loc>
     <lastmod>2025-06-30T23:30:54-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1314/tags/</loc>
+    <loc>https://winkkyfarms.com/tags/routine/</loc>
     <lastmod>2025-06-30T23:30:54-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1314/projects/</loc>
-    <lastmod>2025-06-30T23:27:23-04:00</lastmod>
+    <loc>https://winkkyfarms.com/tags/</loc>
+    <lastmod>2025-06-30T23:30:54-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1314/about/</loc>
+    <loc>https://winkkyfarms.com/</loc>
+    <lastmod>2025-06-30T23:30:54-04:00</lastmod>
+  </url><url>
+    <loc>https://winkkyfarms.com/about/</loc>
     <lastmod>2025-06-29T22:51:01-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1314/tags/agriculture/</loc>
+    <loc>https://winkkyfarms.com/tags/agriculture/</loc>
     <lastmod>2025-06-29T22:51:00-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1314/tags/family-farm/</loc>
+    <loc>https://winkkyfarms.com/tags/family-farm/</loc>
     <lastmod>2025-06-29T22:51:00-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1314/tags/welcome/</loc>
+    <loc>https://winkkyfarms.com/tags/welcome/</loc>
     <lastmod>2025-06-29T22:51:00-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1314/posts/welcome-to-the-farm/</loc>
+    <loc>https://winkkyfarms.com/posts/welcome-to-the-farm/</loc>
     <lastmod>2025-06-29T22:51:00-04:00</lastmod>
+  </url><url>
+    <loc>https://winkkyfarms.com/tags/corn/</loc>
+    <lastmod>2024-10-15T06:30:00-04:00</lastmod>
+  </url><url>
+    <loc>https://winkkyfarms.com/categories/crops/</loc>
+    <lastmod>2024-10-15T06:30:00-04:00</lastmod>
+  </url><url>
+    <loc>https://winkkyfarms.com/tags/farming-wisdom/</loc>
+    <lastmod>2024-10-15T06:30:00-04:00</lastmod>
+  </url><url>
+    <loc>https://winkkyfarms.com/tags/harvest/</loc>
+    <lastmod>2024-10-15T06:30:00-04:00</lastmod>
+  </url><url>
+    <loc>https://winkkyfarms.com/posts/harvest-lessons/</loc>
+    <lastmod>2024-10-15T06:30:00-04:00</lastmod>
+  </url><url>
+    <loc>https://winkkyfarms.com/tags/lessons-learned/</loc>
+    <lastmod>2024-10-15T06:30:00-04:00</lastmod>
+  </url><url>
+    <loc>https://winkkyfarms.com/categories/seasons/</loc>
+    <lastmod>2024-10-15T06:30:00-04:00</lastmod>
+  </url><url>
+    <loc>https://winkkyfarms.com/tags/soybeans/</loc>
+    <lastmod>2024-10-15T06:30:00-04:00</lastmod>
+  </url><url>
+    <loc>https://winkkyfarms.com/tags/cooking/</loc>
+    <lastmod>2024-08-10T14:30:00-04:00</lastmod>
+  </url><url>
+    <loc>https://winkkyfarms.com/tags/family/</loc>
+    <lastmod>2024-08-10T14:30:00-04:00</lastmod>
+  </url><url>
+    <loc>https://winkkyfarms.com/tags/farmhouse/</loc>
+    <lastmod>2024-08-10T14:30:00-04:00</lastmod>
+  </url><url>
+    <loc>https://winkkyfarms.com/projects/kitchen-renovation/</loc>
+    <lastmod>2024-08-10T14:30:00-04:00</lastmod>
+  </url><url>
+    <loc>https://winkkyfarms.com/categories/home-improvement/</loc>
+    <lastmod>2024-08-10T14:30:00-04:00</lastmod>
+  </url><url>
+    <loc>https://winkkyfarms.com/tags/kitchen/</loc>
+    <lastmod>2024-08-10T14:30:00-04:00</lastmod>
+  </url><url>
+    <loc>https://winkkyfarms.com/projects/</loc>
+    <lastmod>2024-08-10T14:30:00-04:00</lastmod>
+  </url><url>
+    <loc>https://winkkyfarms.com/tags/renovation/</loc>
+    <lastmod>2024-08-10T14:30:00-04:00</lastmod>
+  </url><url>
+    <loc>https://winkkyfarms.com/tags/children/</loc>
+    <lastmod>2024-07-22T19:30:00-04:00</lastmod>
+  </url><url>
+    <loc>https://winkkyfarms.com/tags/education/</loc>
+    <lastmod>2024-07-22T19:30:00-04:00</lastmod>
+  </url><url>
+    <loc>https://winkkyfarms.com/categories/family/</loc>
+    <lastmod>2024-07-22T19:30:00-04:00</lastmod>
+  </url><url>
+    <loc>https://winkkyfarms.com/tags/family-values/</loc>
+    <lastmod>2024-07-22T19:30:00-04:00</lastmod>
+  </url><url>
+    <loc>https://winkkyfarms.com/posts/farm-kids/</loc>
+    <lastmod>2024-07-22T19:30:00-04:00</lastmod>
+  </url><url>
+    <loc>https://winkkyfarms.com/tags/responsibility/</loc>
+    <lastmod>2024-07-22T19:30:00-04:00</lastmod>
+  </url><url>
+    <loc>https://winkkyfarms.com/tags/rural-life/</loc>
+    <lastmod>2024-07-22T19:30:00-04:00</lastmod>
+  </url><url>
+    <loc>https://winkkyfarms.com/tags/deck/</loc>
+    <lastmod>2024-06-05T16:45:00-04:00</lastmod>
+  </url><url>
+    <loc>https://winkkyfarms.com/projects/deck-repair/</loc>
+    <lastmod>2024-06-05T16:45:00-04:00</lastmod>
+  </url><url>
+    <loc>https://winkkyfarms.com/tags/maintenance/</loc>
+    <lastmod>2024-06-05T16:45:00-04:00</lastmod>
+  </url><url>
+    <loc>https://winkkyfarms.com/tags/repair/</loc>
+    <lastmod>2024-06-05T16:45:00-04:00</lastmod>
+  </url><url>
+    <loc>https://winkkyfarms.com/tags/summer-projects/</loc>
+    <lastmod>2024-06-05T16:45:00-04:00</lastmod>
+  </url><url>
+    <loc>https://winkkyfarms.com/tags/hope/</loc>
+    <lastmod>2024-04-20T07:15:00-04:00</lastmod>
+  </url><url>
+    <loc>https://winkkyfarms.com/tags/planting/</loc>
+    <lastmod>2024-04-20T07:15:00-04:00</lastmod>
+  </url><url>
+    <loc>https://winkkyfarms.com/tags/spring/</loc>
+    <lastmod>2024-04-20T07:15:00-04:00</lastmod>
+  </url><url>
+    <loc>https://winkkyfarms.com/posts/spring-planting-begins/</loc>
+    <lastmod>2024-04-20T07:15:00-04:00</lastmod>
+  </url><url>
+    <loc>https://winkkyfarms.com/tags/barn/</loc>
+    <lastmod>2024-03-15T09:20:00-04:00</lastmod>
+  </url><url>
+    <loc>https://winkkyfarms.com/projects/electrical-upgrade/</loc>
+    <lastmod>2024-03-15T09:20:00-04:00</lastmod>
+  </url><url>
+    <loc>https://winkkyfarms.com/tags/electrical/</loc>
+    <lastmod>2024-03-15T09:20:00-04:00</lastmod>
+  </url><url>
+    <loc>https://winkkyfarms.com/tags/farm-infrastructure/</loc>
+    <lastmod>2024-03-15T09:20:00-04:00</lastmod>
+  </url><url>
+    <loc>https://winkkyfarms.com/categories/infrastructure/</loc>
+    <lastmod>2024-03-15T09:20:00-04:00</lastmod>
+  </url><url>
+    <loc>https://winkkyfarms.com/tags/modernization/</loc>
+    <lastmod>2024-03-15T09:20:00-04:00</lastmod>
+  </url><url>
+    <loc>https://winkkyfarms.com/tags/safety/</loc>
+    <lastmod>2024-03-15T09:20:00-04:00</lastmod>
+  </url><url>
+    <loc>https://winkkyfarms.com/tags/crops/</loc>
+    <lastmod>2024-01-15T08:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://winkkyfarms.com/tags/equipment/</loc>
+    <lastmod>2024-01-15T08:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://winkkyfarms.com/tags/goals/</loc>
+    <lastmod>2024-01-15T08:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://winkkyfarms.com/tags/planning/</loc>
+    <lastmod>2024-01-15T08:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://winkkyfarms.com/tags/winter/</loc>
+    <lastmod>2024-01-15T08:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://winkkyfarms.com/posts/winter-planning/</loc>
+    <lastmod>2024-01-15T08:00:00-05:00</lastmod>
   </url>
 </urlset>
