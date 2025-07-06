@@ -217,40 +217,73 @@ We believe that farming knowledge should be accessible, that growing your own fo
 
 ---
 
-## 💰 Financial Projections
+## 💰 Financial Projections - Property Tax Qualification Focus
 
-### **Year 1 Revenue Targets**
-- **Farm Stand**: $8,000-12,000
-- **Adult Classes**: $15,000-25,000 (50-75 students)
-- **Growing Kits**: $5,000-8,000 (300-500 kits)
-- **Total Year 1**: $28,000-45,000
+### **PRIMARY GOAL: $10,000 Annual Sales for Farm Tax Status**
+*Must achieve this for two consecutive years to qualify for agricultural property tax rates*
 
-### **Year 2 Revenue Targets**
-- **Farm Stand**: $12,000-18,000
-- **Adult Classes**: $25,000-40,000 (100-150 students)
-- **Children's Programs**: $8,000-15,000
-- **Growing Kits**: $15,000-25,000 (1,000-1,500 kits)
-- **Total Year 2**: $60,000-98,000
+### **Year 1 Revenue Target: $10,000-12,000**
+**Strategy: Multiple small revenue streams to minimize risk**
+
+- **Farm Stand**: $4,000-5,000
+  - Fresh vegetables, eggs, seasonal specialties
+  - 6-month season (May-October)
+  - Average $650-850 per month
+
+- **Growing Kits**: $3,000-4,000
+  - 200-300 kits at $12-18 each
+  - Focus on microgreens and herb kits
+  - Seasonal peaks (spring/fall)
+
+- **Adult Classes**: $3,000-4,000
+  - 8-10 workshops at $300-400 revenue each
+  - 6-8 participants per class at $45-65 each
+  - Seasonal gardening topics
+
+**Total Year 1**: $10,000-13,000 ✅
+
+### **Year 2 Revenue Target: $10,000-15,000**
+**Strategy: Refine successful streams, add modest expansion**
+
+- **Farm Stand**: $5,000-6,000 (improved efficiency)
+- **Growing Kits**: $4,000-6,000 (expanded distribution)
+- **Adult Classes**: $3,000-5,000 (reputation building)
+- **Children's Programs**: $1,000-2,000 (pilot programs)
+
+**Total Year 2**: $13,000-19,000 ✅
 
 ### **Year 3+ Revenue Targets**
-- **Combined Programs**: $100,000-150,000 annually
-- **Sustainable part-time income** for farm family
-- **Foundation for full-time transition** if desired
+- **Maintain $10,000+ minimum** for tax qualification
+- **Organic growth** based on what works best
+- **Reinvest profits** into farm improvements
+- **Optional expansion** if desired, but not required
 
 ---
 
-## 🎯 Success Metrics
+## 🎯 Success Metrics - Property Tax Focus
 
-### **Quantitative Goals**
-- **Year 1**: 100+ class participants, 500+ growing kits sold
-- **Year 2**: 200+ class participants, 1,500+ growing kits sold
-- **Year 3**: 300+ class participants, 2,500+ growing kits sold
+### **Primary Success Metric**
+- ✅ **$10,000+ in documented farm sales** for two consecutive years
+- ✅ **Proper record keeping** for tax authority requirements
+- ✅ **Agricultural property tax qualification** achieved
+
+### **Year 1 Quantitative Goals (Conservative & Achievable)**
+- **50-60 class participants** across 8-10 workshops
+- **200-300 growing kits sold** (focus on higher-margin items)
+- **$4,000-5,000 farm stand sales** over 6-month season
+- **Total: $10,000-13,000** in documented sales
+
+### **Year 2 Quantitative Goals**
+- **60-80 class participants** (word-of-mouth growth)
+- **250-400 growing kits sold** (expanded distribution)
+- **$5,000-6,000 farm stand sales** (improved efficiency)
+- **Total: $13,000-19,000** in documented sales
 
 ### **Qualitative Goals**
-- **Community recognition** as the go-to farm education source
-- **Positive reviews and testimonials** from students and customers
-- **Repeat customers** and word-of-mouth referrals
-- **Media coverage** in local newspapers and gardening publications
+- **Solid local reputation** for quality products and education
+- **Repeat customers** and referrals
+- **Sustainable workload** that doesn't overwhelm farm operations
+- **Foundation for future growth** if desired
 
 ---
 
