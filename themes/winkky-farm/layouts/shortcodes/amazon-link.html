@@ -1,0 +1,7 @@
+{{ $url := .Get "url" }}
+{{ $text := .Get "text" | default "View on Amazon" }}
+{{ $class := .Get "class" | default "amazon-button" }}
+
+<a href="{{ $url }}" target="_blank" rel="noopener nofollow" class="{{ $class }}">
+    {{ $text }}
+</a>

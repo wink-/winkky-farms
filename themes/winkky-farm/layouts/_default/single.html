@@ -51,6 +51,11 @@
         </div>
     </header>
     
+    <!-- Affiliate Disclosure (for tool reviews) -->
+    {{ if or (in .Params.tags "product-review") (in .Params.categories "tools-equipment") }}
+        {{ partial "affiliate-disclosure.html" . }}
+    {{ end }}
+    
     <!-- Article Content -->
     <div class="prose prose-lg max-w-none">
         {{ .Content }}

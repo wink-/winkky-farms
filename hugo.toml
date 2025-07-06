@@ -17,7 +17,7 @@ theme = 'winkky-farm'
     weight = 1
   [[menu.main]]
     name = "The Animals"
-    url = "/categories/livestock/"
+    url = "/tags/livestock/"
     weight = 2
   [[menu.main]]
     name = "Seasons"
@@ -29,9 +29,13 @@ theme = 'winkky-farm'
     weight = 4
   [[menu.main]]
     name = "Our Roots"
-    url = "/categories/history/"
+    url = "/tags/farming-wisdom/"
     weight = 5
   [[menu.main]]
     name = "The Family"
     url = "/about/"
     weight = 6
+  [[menu.main]]
+    name = "Tools We Use"
+    url = "/categories/tools-equipment/"
+    weight = 7
