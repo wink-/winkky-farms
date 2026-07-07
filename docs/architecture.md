@@ -34,3 +34,7 @@ Winkky Farms is a Hugo static site for farm stories, projects, tools, and busine
 ## Build
 
 Hugo renders the site using the custom theme and content files.
+
+## Data Flow
+
+Markdown content and front matter in `content/` feed Hugo templates from the `winkky-farm` theme. Hugo combines those inputs with `hugo.toml` menu/params, copies files from `static/`, uses generated/cached resources from `resources/` when applicable, and writes the generated static site to `public/` when built.

@@ -25,6 +25,13 @@ hugo --gc --minify --enableGitInfo
 hugo --gc --minify --buildFuture
 ```
 
+## Lightweight Checks
+
+```bash
+git diff --check
+python3 -c 'import pathlib,tomllib; tomllib.loads(pathlib.Path("hugo.toml").read_text())'
+```
+
 ## Validation
 
 Lightweight validation used for documentation bootstrap:
