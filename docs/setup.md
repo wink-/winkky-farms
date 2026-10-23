@@ -28,6 +28,24 @@ Build validation used for the rebuild:
 - Internal link check: scan `dist/**/*.html` for `href`/`src` starting with
   `/` and confirm each resolves to a file under `dist/`.
 
+## Syndication Outputs (2026-10-23)
+
+The build also emits (via `@astrojs/rss` and `@astrojs/sitemap`):
+
+- `dist/rss.xml` — one combined feed of published posts ("— field note"
+  suffix) and projects ("— project" suffix), newest first; `draft: true`
+  entries are excluded.
+- `dist/sitemap-index.xml` + `dist/sitemap-0.xml` — generated from the
+  `site` set in `astro.config.mjs`.
+
+Spot-check after a build:
+
+```bash
+grep -c "<loc>" dist/sitemap-0.xml
+grep -o "<title>[^<]*</title>" dist/rss.xml | head
+grep -o '<link rel="canonical"[^>]*>' dist/stories/farm-kids/index.html
+```
+
 ## Hugo Site (unchanged, default branch)
 
 Requirements:

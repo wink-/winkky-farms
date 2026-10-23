@@ -2,6 +2,17 @@
 
 ## 2026-10-23
 
+- Added RSS feed, sitemap, and canonical URLs to the Astro build:
+  `@astrojs/rss` + `@astrojs/sitemap` integrations, `src/pages/rss.xml.js`
+  (single combined feed of posts + projects, drafts excluded, sorted
+  newest-first, with "— field note" / "— project" title suffixes), and
+  sitemap/RSS alternate links in the BaseLayout head (canonical link was
+  already present).
+- `npm run build` passes (77 pages); verified 76 sitemap URLs, 13 feed items
+  sorted descending, and canonical/RSS/sitemap tags in built story and
+  project HTML. Restores parity with the RSS/sitemap the Hugo stack used to
+  generate.
+- Updated setup, status, and notes.
 - Rebuilt the site additively as an Astro 7 site on `feature/astro-rebuild`:
   content collections, migrated content (13 posts/projects + about/tools
   pages), full page set, and a soil/gold/leaf farm theme in plain CSS.

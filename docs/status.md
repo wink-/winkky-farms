@@ -30,6 +30,10 @@ files remain untouched; the Astro stack is purely additive. Work lives on
 - Earthy handcrafted theme in plain CSS (soil/gold/leaf palette, slab-serif
   headings, CSS textures; no fabricated imagery).
 - `npm run build` passes cleanly: 77 pages, all internal links resolve.
+- RSS feed (`dist/rss.xml`, combined posts + projects with "— field note" /
+  "— project" title suffixes, drafts excluded), sitemap
+  (`dist/sitemap-index.xml`), and canonical URLs in every built page head
+  (added 2026-10-23 via `@astrojs/rss` + `@astrojs/sitemap`).
 
 ## Next Tasks
 
@@ -50,7 +54,11 @@ files remain untouched; the Astro stack is purely additive. Work lives on
   `"type": "module"`; Astro bypasses it via an inline PostCSS config.
 - Sveltia CMS (`static/admin/`) is Hugo-oriented and not part of the Astro
   build; content editing workflow needs a decision post-merge.
-- No sitemap/RSS yet in the Astro build (Hugo generated both).
+- RSS/sitemap parity note: the combined feed deliberately merges posts and
+  projects into one channel (item titles carry a "— field note" / "—
+  project" suffix instead); separate per-collection feeds were not
+  requested. If a reader only wants stories, filtering by suffix is the
+  current workaround.
 
 ## Last Worked On
 

@@ -43,3 +43,9 @@ generated:
   documents are deliberately not published anywhere on the site.
 - Content excerpts fall back to a plain-text slice of the body when a story
   has no `description` (currently `morning-chores` and `welcome-to-the-farm`).
+- The RSS feed (`src/pages/rss.xml.js`) is a single merged channel: posts get
+  a "— field note" title suffix and projects a "— project" suffix so readers
+  can tell entry types apart. Post routes are `/stories/<id>/` while project
+  routes are `/projects/<id>/` — keep that asymmetry in mind if the feed or
+  sitemap logic ever changes. The 404 page is built (77 pages total) but
+  correctly excluded from the sitemap (76 URLs).

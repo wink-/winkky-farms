@@ -1,7 +1,9 @@
 import { defineConfig } from 'astro/config';
+import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
   site: 'https://winkkyfarms.com/',
+  integrations: [sitemap()],
   // Hugo's `public/` folder is stale build output from the previous stack and
   // Hugo's `static/` holds CMS files for the Hugo workflow. Neither should ship
   // in the Astro build, so the Astro copy-dir is a fresh, dedicated folder.
