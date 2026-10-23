@@ -1,0 +1,37 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { countTags } from '../../lib/utils';
+
+const posts = await getCollection('posts', ({ data }) => !data.draft);
+const projects = await getCollection('projects', ({ data }) => !data.draft);
+const tags = [...countTags(posts, projects).entries()].sort((a, b) =>
+  a[0].localeCompare(b[0]),
+);
+---
+
+<BaseLayout
+  title="Tags"
+  description="Browse Winkky Farms stories and projects by tag — crops, livestock, seasons, tools, home improvement, and more."
+>
+  <section class="page-banner">
+    <div class="wrap page-banner__inner">
+      <h1>Tags</h1>
+      <p>Every trail marker on the farm. Pick a tag and follow it through the stories.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="tag-row">
+        {
+          tags.map(([tag, count]) => (
+            <a class="pill pill--big" href={`/tags/${tag}/`}>
+              {tag} <span class="pill__count">({count})</span>
+            </a>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+</BaseLayout>

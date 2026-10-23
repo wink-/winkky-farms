@@ -1,0 +1,50 @@
+---
+const currentPath = Astro.url.pathname;
+
+// Mirrors the Hugo menu in hugo.toml, repointed at the Astro routes.
+const menu = [
+  { name: 'The Fields', url: '/tags/crops/' },
+  { name: 'The Animals', url: '/tags/livestock/' },
+  { name: 'Seasons', url: '/tags/seasons/' },
+  { name: 'Farm Stories', url: '/stories/' },
+  { name: 'Our Roots', url: '/tags/farming-wisdom/' },
+  { name: 'The Family', url: '/about/' },
+  { name: 'Tools We Use', url: '/tags/tools-equipment/' },
+];
+
+function isActive(url: string): boolean {
+  if (url === '/') return currentPath === '/';
+  return currentPath === url || currentPath.startsWith(url);
+}
+---
+
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <a class="brand" href="/">
+      <span class="brand__mark" aria-hidden="true">
+        <svg width="22" height="22" viewBox="0 0 64 64" role="img" aria-hidden="true">
+          <path d="M32 54c0-14 0-22 0-27" stroke="#d9a441" stroke-width="6" stroke-linecap="round" fill="none"></path>
+          <path d="M32 36c-11 2-17-3-18-13 10-2 16 3 18 13z" fill="#8aa96b"></path>
+          <path d="M32 29c11 2 17-3 18-13-10-2-16 3-18 13z" fill="#d9a441"></path>
+        </svg>
+      </span>
+      <span>
+        <span class="brand__name">Winkky Farms</span>
+        <span class="brand__tag">Est. 1980 · Zone 6a</span>
+      </span>
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        {
+          menu.map((item) => (
+            <li>
+              <a href={item.url} aria-current={isActive(item.url) ? 'page' : undefined}>
+                {item.name}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+  </div>
+</header>

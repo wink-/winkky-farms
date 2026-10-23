@@ -1,0 +1,26 @@
+---
+import { formatDate, excerpt } from '../lib/utils';
+import type { StoryEntry } from '../lib/utils';
+
+interface Props {
+  entry: StoryEntry;
+  kind: 'story' | 'project';
+}
+
+const { entry, kind } = Astro.props;
+const url = kind === 'story' ? `/stories/${entry.id}/` : `/projects/${entry.id}/`;
+const showTags = entry.data.tags.slice(0, 4);
+---
+
+<article class:list={['card', kind === 'project' && 'card--project']}>
+  <p class="card__kind">{kind === 'story' ? 'Farm Story' : 'Farm Project'}</p>
+  <h3><a href={url}>{entry.data.title}</a></h3>
+  <p class="card__meta">
+    <time datetime={entry.data.pubDate.toISOString()}>{formatDate(entry.data.pubDate)}</time>
+  </p>
+  <p class="card__excerpt">{excerpt(entry)}</p>
+  <div class="tag-row">
+    {showTags.map((tag) => <a class="pill" href={`/tags/${tag}/`}>{tag}</a>)}
+  </div>
+  <p class="card__more"><a href={url}>{kind === 'story' ? 'Read the story →' : 'See the project →'}</a></p>
+</article>

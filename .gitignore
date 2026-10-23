@@ -45,3 +45,7 @@ wrangler.toml
 
 # Claude Code
 .claude/
+# Astro
+node_modules/
+dist/
+.astro/

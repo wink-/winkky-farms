@@ -1,0 +1,20 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Page Not Found">
+  <section class="notfound">
+    <div class="wrap">
+      <span class="notfound__code" aria-hidden="true">404</span>
+      <h1>This field lies fallow</h1>
+      <p>
+        There's nothing planted at this address. The path may have grown over, or maybe the page
+        never took root.
+      </p>
+      <div class="notfound__actions">
+        <a class="button button--green" href="/">Head back to the farm</a>
+        <a class="button button--ghost-dark" href="/stories/">Read farm stories</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

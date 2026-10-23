@@ -1,0 +1,56 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import StoryCard from '../../components/StoryCard.astro';
+import { byNewestFirst, type StoryEntry } from '../../lib/utils';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts', ({ data }) => !data.draft);
+  const projects = await getCollection('projects', ({ data }) => !data.draft);
+  const everything: Array<{ entry: StoryEntry; kind: 'story' | 'project' }> = [
+    ...posts.map((entry) => ({ entry, kind: 'story' as const })),
+    ...projects.map((entry) => ({ entry, kind: 'project' as const })),
+  ];
+
+  const tags = new Set(everything.flatMap(({ entry }) => entry.data.tags));
+  return [...tags].map((tag) => ({
+    params: { tag },
+    props: {
+      tagged: everything
+        .filter(({ entry }) => entry.data.tags.includes(tag))
+        .sort((a, b) => byNewestFirst(a.entry, b.entry)),
+    },
+  }));
+}
+
+const { tag } = Astro.params;
+const { tagged } = Astro.props;
+---
+
+<BaseLayout
+  title={`Tagged “${tag}”`}
+  description={`Stories and projects from Winkky Farms tagged “${tag}”.`}
+>
+  <section class="page-banner">
+    <div class="wrap page-banner__inner">
+      <h1>#{tag}</h1>
+      <p>
+        {tagged.length}
+        {tagged.length === 1 ? 'entry' : 'entries'} in the farm journal tagged “{tag}”.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <p><a class="section__more" href="/tags/">&larr; All tags</a></p>
+      <div class="card-grid">
+        {
+          tagged.map(({ entry, kind }) => (
+            <StoryCard entry={entry} kind={kind} />
+          ))
+        }
+      </div>
+    </div>
+  </section>
+</BaseLayout>
