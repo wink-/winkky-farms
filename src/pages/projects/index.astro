@@ -1,0 +1,31 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import StoryCard from '../../components/StoryCard.astro';
+import { byNewestFirst } from '../../lib/utils';
+
+const projects = (await getCollection('projects', ({ data }) => !data.draft)).sort(byNewestFirst);
+---
+
+<BaseLayout
+  title="Farm Projects"
+  description="Hands-on projects from Winkky Farms — barn upgrades, deck rebuilds, and farmhouse renovations, with honest lessons from every mistake."
+>
+  <section class="page-banner">
+    <div class="wrap page-banner__inner">
+      <h1>Farm Projects</h1>
+      <p>
+        The fixes, builds, and upgrades that keep a farmstead standing — told the way they happened,
+        surprises, blown budgets, and all.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="card-grid">
+        {projects.map((entry) => <StoryCard entry={entry} kind="project" />)}
+      </div>
+    </div>
+  </section>
+</BaseLayout>

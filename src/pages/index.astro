@@ -1,0 +1,103 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import StoryCard from '../components/StoryCard.astro';
+import { byNewestFirst } from '../lib/utils';
+
+const posts = (await getCollection('posts', ({ data }) => !data.draft)).sort(byNewestFirst);
+const projects = (await getCollection('projects', ({ data }) => !data.draft)).sort(byNewestFirst);
+const latestStories = posts.slice(0, 3);
+const featuredProjects = projects.slice(0, 3);
+
+const explore = [
+  { name: 'Crops & Fields', url: '/tags/crops/', blurb: 'What we plant, and why' },
+  { name: 'The Animals', url: '/tags/livestock/', blurb: 'Tales from the barn' },
+  { name: 'Seasons', url: '/tags/seasons/', blurb: 'A year on the land' },
+  { name: 'Tools We Use', url: '/tags/tools-equipment/', blurb: 'Field-tested gear' },
+  { name: 'Farming Wisdom', url: '/tags/farming-wisdom/', blurb: 'Lessons from three generations' },
+];
+---
+
+<BaseLayout>
+  <section class="hero">
+    <div class="wrap hero__inner">
+      <p class="hero__eyebrow">A family farm in Zone 6a</p>
+      <h1>Where family, land, and tradition meet</h1>
+      <p>
+        Winkky Farms began in 1980, when Uncle Dick looked at this land and saw possibility. Three
+        generations later we're still at it — sharing seasonal stories from the fields, the projects
+        that keep the farm running, and the simple joys of life lived close to the soil.
+      </p>
+      <div class="hero__actions">
+        <a class="button button--gold" href="/stories/">Read our stories</a>
+        <a class="button button--ghost" href="/projects/">See our projects</a>
+      </div>
+    </div>
+    <svg
+      class="hero__scene"
+      viewBox="0 0 1440 240"
+      preserveAspectRatio="xMidYMax meet"
+      aria-hidden="true"
+    >
+      <circle cx="1240" cy="52" r="34" fill="#d9a441" opacity="0.9"></circle>
+      <circle cx="1240" cy="52" r="52" fill="#d9a441" opacity="0.25"></circle>
+      <path d="M0 240V190c120-28 260-40 420-30 180 11 300 40 470 40s330-25 550-55v95z" fill="#48603a" opacity="0.85"></path>
+      <path d="M0 240v-24c160-18 320-16 480-2 190 16 380 18 560-6 160-21 280-20 400-8v40z" fill="#38502c"></path>
+      <g>
+        <path d="M955 205v-52l38-26 38 26v52z" fill="#a0452e"></path>
+        <path d="M968 205v-30h22v30z" fill="#f2e3c2"></path>
+        <path d="M955 153h76l-38-26z" fill="#7d3322"></path>
+      </g>
+      <g stroke="#241811" stroke-width="3" stroke-linecap="round" opacity="0.55">
+        <path d="M120 218v-46M150 218v-46M180 218v-46M120 184h60M120 200h60"></path>
+      </g>
+    </svg>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section__head">
+        <h2>Latest from the fields</h2>
+        <a class="section__more" href="/stories/">All stories →</a>
+      </div>
+      <div class="card-grid">
+        {latestStories.map((entry) => <StoryCard entry={entry} kind="story" />)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--soil">
+    <div class="wrap">
+      <div class="section__head">
+        <h2>Featured projects</h2>
+        <a class="section__more" href="/projects/">All projects →</a>
+      </div>
+      <p class="section__intro">
+        Barns, decks, kitchens, and wiring — the fixes and builds that keep a farmstead standing,
+        told the way they happened, surprises and all.
+      </p>
+      <div class="card-grid">
+        {featuredProjects.map((entry) => <StoryCard entry={entry} kind="project" />)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--leaf">
+    <div class="wrap">
+      <div class="section__head">
+        <h2>Wander the farm</h2>
+        <a class="section__more" href="/tags/">Browse all tags →</a>
+      </div>
+      <div class="explore-grid">
+        {
+          explore.map((item) => (
+            <a class="explore-card" href={item.url}>
+              <strong>{item.name}</strong>
+              <span>{item.blurb}</span>
+            </a>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+</BaseLayout>

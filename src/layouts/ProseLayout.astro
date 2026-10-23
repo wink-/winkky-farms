@@ -1,0 +1,37 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import { formatDate } from '../lib/utils';
+
+interface Props {
+  frontmatter: {
+    title: string;
+    description?: string;
+    pubDate?: Date | string;
+  };
+}
+
+const { frontmatter } = Astro.props;
+// Markdown pages bypass content-collection schemas, so pubDate may be a
+// raw string; normalize it before formatting.
+const pubDate = frontmatter.pubDate ? new Date(frontmatter.pubDate) : undefined;
+---
+
+<BaseLayout title={frontmatter.title} description={frontmatter.description}>
+  <header class="article-header">
+    <h1>{frontmatter.title}</h1>
+    {
+      pubDate && (
+        <p class="article-header__meta">
+          <time datetime={pubDate.toISOString()}>{formatDate(pubDate)}</time>
+        </p>
+      )
+    }
+    {frontmatter.description && <p class="article-header__desc">{frontmatter.description}</p>}
+  </header>
+  <div class="prose">
+    <slot />
+  </div>
+  <div class="wrap">
+    <a class="back-link" href="/">&larr; Back to the farm</a>
+  </div>
+</BaseLayout>

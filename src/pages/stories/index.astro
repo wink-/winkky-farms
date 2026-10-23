@@ -1,0 +1,48 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import StoryCard from '../../components/StoryCard.astro';
+import { byNewestFirst } from '../../lib/utils';
+
+const posts = (await getCollection('posts', ({ data }) => !data.draft)).sort(byNewestFirst);
+
+const byYear = new Map<number, typeof posts>();
+for (const post of posts) {
+  const year = post.data.pubDate.getUTCFullYear();
+  if (!byYear.has(year)) byYear.set(year, []);
+  byYear.get(year)!.push(post);
+}
+const years = [...byYear.keys()].sort((a, b) => b - a);
+---
+
+<BaseLayout
+  title="Farm Stories"
+  description="Seasonal stories from the fields of Winkky Farms — planting, harvest, barn-yard mornings, and the lessons three generations have learned from the land."
+>
+  <section class="page-banner">
+    <div class="wrap page-banner__inner">
+      <h1>Farm Stories</h1>
+      <p>
+        Seasonal reports, morning chores, harvest lessons, and life on the farm — told the way they
+        happened, from our corner of Zone 6a.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      {
+        years.map((year) => (
+          <>
+            <h2 class="year-heading">{year}</h2>
+            <div class="card-grid">
+              {byYear.get(year)!.map((entry) => (
+                <StoryCard entry={entry} kind="story" />
+              ))}
+            </div>
+          </>
+        ))
+      }
+    </div>
+  </section>
+</BaseLayout>
