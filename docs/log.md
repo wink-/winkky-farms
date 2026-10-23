@@ -1,5 +1,20 @@
 # Log
 
+## 2026-10-24
+
+- Added a static design-mockup workflow under `mockups/` (plain HTML/CSS,
+  not Astro routes, kept out of `public/`/`dist/`): OKF workflow README,
+  a neutral dark gallery (`mockups/index.html`) with labeled iframes,
+  full-size links, and a legend; a faithful homepage baseline
+  (`mockups/current/`) linking the real `src/styles/global.css` with a
+  no-op `variant.css`; and the first dated single-variable variant
+  (`mockups/2026-10-24-market-stall/`) with byte-identical markup and a
+  tokens-first override for brighter market-day gold energy (chunkier
+  stitched cards, bigger slab display, livelier texture, soil base and AA
+  contrast kept).
+- No production files changed. Verdicts to be recorded in
+  `docs/notes.md`; promotion path is a `design/<name>` branch plus PR.
+
 ## 2026-10-23
 
 - Added RSS feed, sitemap, and canonical URLs to the Astro build:

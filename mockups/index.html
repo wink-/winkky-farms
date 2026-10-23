@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Winkky Farms — Design Mockup Gallery</title>
+    <style>
+      /* Neutral dark gallery chrome — deliberately NOT the farm palette,
+         so the mockups read on their own terms. */
+      :root {
+        color-scheme: dark;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: #16181d;
+        color: #e8eaf0;
+        font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif;
+      }
+      .wrap {
+        max-width: 76rem;
+        margin: 0 auto;
+        padding: 2.5rem 1.5rem 4rem;
+      }
+      h1 {
+        font-size: 1.45rem;
+        margin: 0 0 0.3rem;
+      }
+      .sub {
+        color: #9aa3b2;
+        margin: 0 0 1.5rem;
+        max-width: 60rem;
+        font-size: 0.95rem;
+      }
+      .sub code {
+        background: #23262e;
+        border-radius: 5px;
+        padding: 0.1em 0.4em;
+        font-size: 0.9em;
+        color: #cdd6e4;
+      }
+      .legend {
+        margin: 0 0 2.5rem;
+        padding: 1rem 1.25rem;
+        background: #1c1f26;
+        border: 1px solid #2b303a;
+        border-radius: 10px;
+        color: #b9c2d0;
+        font-size: 0.92rem;
+      }
+      .legend strong {
+        color: #e8eaf0;
+      }
+      .panel {
+        margin-bottom: 3rem;
+      }
+      .panel-label {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 0.25rem 1.5rem;
+        margin-bottom: 0.7rem;
+      }
+      .panel-label h2 {
+        font-size: 1.05rem;
+        margin: 0;
+      }
+      .panel-label h2 span {
+        color: #9aa3b2;
+        font-weight: 400;
+        font-size: 0.88rem;
+      }
+      .panel-label a {
+        color: #8ab4f8;
+        font-size: 0.9rem;
+        text-decoration: none;
+      }
+      .panel-label a:hover {
+        text-decoration: underline;
+      }
+      iframe {
+        display: block;
+        width: 100%;
+        height: 740px;
+        border: 1px solid #2b303a;
+        border-radius: 10px;
+        background: #faf5ea;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <h1>Design mockup gallery</h1>
+      <p class="sub">
+        Static previews of the winkky-farms homepage. Every mockup loads the real
+        <code>src/styles/global.css</code>; variants differ only through their
+        <code>variant.css</code> overrides, with markup identical to the baseline.
+        Workflow rules live in <code>mockups/README.md</code>.
+      </p>
+      <ul class="legend">
+        <li>
+          <strong>Baseline — current homepage</strong>: faithful static reproduction
+          of the production homepage (hero with barn/hills scene, latest stories,
+          featured projects, explore grid). No overrides — the reference point.
+        </li>
+        <li>
+          <strong>Variant — market stall</strong>: brighter market-day energy on the
+          same soil-brown base. Harvest gold pushed forward, chunkier cards with
+          thicker stitched borders, bigger slab-serif display scale, livelier paper
+          texture. One variable: "market-day gold energy".
+        </li>
+      </ul>
+
+      <section class="panel">
+        <div class="panel-label">
+          <h2>Baseline <span>current/ — production styles, no overrides</span></h2>
+          <a href="./current/">Open full size ↗</a>
+        </div>
+        <iframe src="./current/" title="Baseline mockup: current winkky-farms homepage"></iframe>
+      </section>
+
+      <section class="panel">
+        <div class="panel-label">
+          <h2>Variant — market stall <span>2026-10-24-market-stall/ — dated single-variable variant</span></h2>
+          <a href="./2026-10-24-market-stall/">Open full size ↗</a>
+        </div>
+        <iframe src="./2026-10-24-market-stall/" title="Variant mockup: market stall, dated 2026-10-24"></iframe>
+      </section>
+    </div>
+  </body>
+</html>

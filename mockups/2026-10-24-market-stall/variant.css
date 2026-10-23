@@ -1,0 +1,110 @@
+/* ==========================================================================
+   Variant: market-stall (2026-10-24)
+
+   Concept: brighter market-day energy on the same soil foundation.
+   - Harvest gold pushed forward (tokens first, so everything follows).
+   - Chunkier cards with thicker stitched borders.
+   - Bigger slab-serif display scale.
+   - Livelier paper/texture contrast.
+   - Soil-brown stays grounded; all pairings keep AA contrast.
+
+   Overrides only — markup identical to mockups/current/, global.css linked,
+   never forked. No JS, no external assets.
+   ========================================================================== */
+
+/* --- Tokens: golds brightened toward market-day, stitch + chunk added --- */
+:root {
+  --gold-700: #8f5e10;
+  --gold-600: #cf8f22;
+  --gold-500: #f2b83e;
+  --gold-200: #ffe8ad;
+  --gold-100: #fdf1d2;
+  --radius-lg: 26px;
+  --stitch-gold: rgba(143, 94, 16, 0.55);
+}
+
+/* --- Livelier handmade-paper grain over the same warm cream --- */
+body {
+  background-image: radial-gradient(rgba(74, 52, 38, 0.08) 1.2px, transparent 1.8px);
+  background-size: 18px 18px;
+}
+
+/* --- Hero: stronger morning-market glow, brighter furrows, bigger display --- */
+.hero {
+  background:
+    repeating-linear-gradient(
+      180deg,
+      transparent 0 34px,
+      rgba(250, 245, 234, 0.08) 34px 38px
+    ),
+    radial-gradient(130% 100% at 85% -10%, rgba(242, 184, 62, 0.62), transparent 58%),
+    linear-gradient(160deg, var(--soil-900), var(--soil-700) 70%);
+}
+
+.hero h1 {
+  font-size: clamp(2.5rem, 6vw, 4rem);
+}
+
+.hero__eyebrow {
+  border-color: var(--gold-200);
+  background: rgba(242, 184, 62, 0.14);
+}
+
+/* --- Buttons: chunkier gold counter-edge --- */
+.button--gold {
+  border-color: var(--gold-700);
+  box-shadow: 0 4px 0 var(--gold-700);
+}
+
+/* --- Cards: chunkier, with a thick stitched inner border --- */
+.card {
+  border: 2px solid var(--line);
+  outline: 2px dashed var(--stitch-gold);
+  outline-offset: -9px;
+  box-shadow: 0 4px 0 rgba(74, 52, 38, 0.16);
+}
+
+.card::before {
+  height: 9px;
+}
+
+.card__kind {
+  color: var(--gold-700);
+}
+
+.card h3 {
+  font-size: 1.45rem;
+}
+
+/* --- Pills: gold market tags (gold-700 on gold-100 keeps AA) --- */
+.pill {
+  background: var(--gold-100);
+  border: 1px dashed var(--gold-600);
+  color: var(--gold-700);
+}
+
+.pill:hover {
+  background: var(--gold-500);
+  color: var(--soil-950);
+}
+
+/* --- Section heads: bigger slabs, thicker gold bar --- */
+.section__head h2 {
+  font-size: clamp(1.7rem, 3.4vw, 2.35rem);
+}
+
+.section__head h2::after {
+  width: 4.8rem;
+  height: 7px;
+}
+
+/* --- Explore cards: stitched market stalls --- */
+.explore-card {
+  background: rgba(255, 253, 247, 0.1);
+  border: 2px dashed rgba(250, 245, 234, 0.4);
+}
+
+.explore-card:hover {
+  background: rgba(242, 184, 62, 0.26);
+  border-color: var(--gold-200);
+}

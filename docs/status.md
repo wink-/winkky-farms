@@ -6,7 +6,7 @@ resource: winkky-farms
 tags: [status, roadmap, astro]
 generated:
   by: Astro rebuild agent (OpenCode)
-  at: 2026-10-23T16:24:48Z
+  at: 2026-10-24T00:00:00Z
 ---
 
 # Status: Astro Rebuild on Feature Branch
@@ -64,6 +64,7 @@ files remain untouched; the Astro stack is purely additive. Work lives on
 
 - 2026-10-23: Full Astro rebuild implemented and building cleanly on
   `feature/astro-rebuild`; docs updated.
+- 2026-10-24: Added static design-mockup workflow (`mockups/`: gallery, homepage baseline, `market-stall` variant); no production files changed.
 
 ## Suggested First Command
 

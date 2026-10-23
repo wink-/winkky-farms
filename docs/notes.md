@@ -6,7 +6,7 @@ resource: winkky-farms
 tags: [notes, astro, hugo]
 generated:
   by: Astro rebuild agent (OpenCode)
-  at: 2026-10-23T16:24:48Z
+  at: 2026-10-24T00:00:00Z
 ---
 
 # Notes
@@ -49,3 +49,39 @@ generated:
   routes are `/projects/<id>/` — keep that asymmetry in mind if the feed or
   sitemap logic ever changes. The 404 page is built (77 pages total) but
   correctly excluded from the sitemap (76 URLs).
+
+## Design Mockup Workflow (2026-10-24)
+
+- `mockups/` holds plain static HTML design previews. They are **not** Astro
+  routes and must never move into `public/` (stale Hugo output) or
+  `public-assets/` (Astro's public dir) — either would ship them.
+- Rules (full version in `mockups/README.md`): one variable per variant;
+  dated folders `YYYY-MM-DD-<slug>/`; every mockup links the real
+  `../../src/styles/global.css` and may only add `variant.css` overrides
+  (never fork the stylesheet, tokens first, ~20–120 lines); markup is
+  byte-identical to the baseline; real content only; no JS; no external
+  assets.
+- `mockups/current/` is the baseline: a faithful static reproduction of the
+  homepage (header/footer, hero with SVG barn/hills scene, latest stories,
+  featured projects, explore grid) using the real class names and real
+  content, with an intentionally empty `variant.css`. Refresh it when the
+  real homepage changes.
+- `mockups/index.html` is a neutral dark gallery with labeled iframes,
+  full-size links, and a legend — deliberately not the farm palette so the
+  mockups read on their own terms.
+- Promotion path for an approved variant: branch `design/<name>`, apply the
+  token/override changes to production styles, open a PR into
+  `feature/astro-rebuild`. Mockup files themselves are not promoted.
+
+### Variant intent: 2026-10-24-market-stall
+
+- Single variable: "market-day gold energy".
+- Intent: brighter market-day energy — harvest gold pushed forward (via
+  brightened `--gold-*` token overrides), chunkier cards with thicker
+  stitched borders (dashed outline inset on `.card`), bigger slab-serif
+  display scale (`.hero h1`, `.section__head h2`, `.card h3`), and livelier
+  paper/texture contrast (denser body grain, stronger hero glow).
+- Constraints honored: soil-brown base stays grounded, AA contrast kept
+  (gold-700 `#8f5e10` text on gold-100/paper; soil-950 on gold-500),
+  identical markup, no JS, no external assets.
+- Verdict: awaiting review. Record keep/iterate/discard here when decided.
