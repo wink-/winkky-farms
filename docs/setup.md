@@ -3,26 +3,42 @@ type: Setup
 title: Setup
 description: Local setup and validation notes for Winkky Farms.
 resource: winkky-farms
-tags: [setup, hugo, validation]
-timestamp: 2026-07-06T00:00:00Z
+tags: [setup, astro, hugo, validation]
+generated:
+  by: Astro rebuild agent (OpenCode)
+  at: 2026-10-23T16:24:48Z
 ---
 
 # Setup
 
-## Requirements
+## Astro Site (feature branch)
+
+Requirements: Node.js (20.3+ / 22+ recommended by Astro 7) and npm.
+
+```bash
+npm install --no-audit --no-fund
+npm run dev        # dev server
+npm run build      # production build to dist/
+npm run preview    # serve dist/ locally
+```
+
+Build validation used for the rebuild:
+
+- `npm run build` completes cleanly (77 pages as of 2026-10-23).
+- Internal link check: scan `dist/**/*.html` for `href`/`src` starting with
+  `/` and confirm each resolves to a file under `dist/`.
+
+## Hugo Site (unchanged, default branch)
+
+Requirements:
 
 - Hugo available on PATH.
 - Theme submodules initialized if theme directories are missing or incomplete.
-- Node/PostCSS tooling only if changing the CSS pipeline; do not install dependencies unless requested.
-
-## Common Commands
 
 ```bash
 hugo server -D
 hugo server
 hugo --gc --minify
-hugo --gc --minify --enableGitInfo
-hugo --gc --minify --buildFuture
 ```
 
 ## Lightweight Checks
@@ -34,10 +50,8 @@ python3 -c 'import pathlib,tomllib; tomllib.loads(pathlib.Path("hugo.toml").read
 
 ## Validation
 
-Lightweight validation used for documentation bootstrap:
-
-```bash
-hugo --printPathWarnings --panicOnWarning
-```
-
-If Hugo is unavailable, fall back to repository state and Markdown/config review.
+- Astro: `npm run build` is the gate; no external dependencies beyond the
+  single `astro` package.
+- Hugo: `hugo --printPathWarnings --panicOnWarning` when Hugo is installed.
+  If Hugo is unavailable, fall back to repository state and Markdown/config
+  review.

@@ -3,44 +3,62 @@ type: Status
 title: Status
 description: Current project phase and next tasks for Winkky Farms.
 resource: winkky-farms
-tags: [status, roadmap]
-timestamp: 2026-07-06T00:00:00Z
+tags: [status, roadmap, astro]
+generated:
+  by: Astro rebuild agent (OpenCode)
+  at: 2026-10-23T16:24:48Z
 ---
 
-# Status: Hugo Farm Site
+# Status: Astro Rebuild on Feature Branch
 
-Hugo farm site with custom theme, content library, CMS/admin files, and business strategy documents.
+The Hugo site is being rebuilt in place as a modern Astro 7 site. All Hugo
+files remain untouched; the Astro stack is purely additive. Work lives on
+`feature/astro-rebuild`.
 
 ## Completed
 
-- Hugo configuration exists for `https://winkkyfarms.com/`.
-- Custom `winkky-farm` theme is present.
-- Blog posts, project stories, about page, and tools page exist.
-- Netlify CMS/admin structure exists.
-- Strategy and business planning documents exist.
-- OKF documentation bootstrap added.
-- Top-level README added with a concise project overview and marked project-docs block.
-- OKF documentation format refined with index frontmatter, repo commands, architecture data flow, and validation notes.
+- Hugo configuration, content, themes, CMS files, and strategy documents
+  preserved exactly as they were.
+- Astro 7 scaffold: `package.json`, `astro.config.mjs`, content collections
+  (`posts`, `projects`) with shared schema, and gitignore entries for
+  `node_modules/`, `dist/`, `.astro/`.
+- All 13 posts/projects migrated TOML to YAML frontmatter (bodies kept, Hugo
+  shortcodes replaced); `about` and `tools` migrated as Markdown pages.
+- Full page set: home, `/stories/` + detail, `/projects/` + detail, `/tags/`
+  + per-tag pages, `/about/`, `/tools/`, 404.
+- Header navigation mirrors the `hugo.toml` menu with real, resolving routes.
+- Earthy handcrafted theme in plain CSS (soil/gold/leaf palette, slab-serif
+  headings, CSS textures; no fabricated imagery).
+- `npm run build` passes cleanly: 77 pages, all internal links resolve.
 
 ## Next Tasks
 
-- Confirm production deployment command and hosting context.
-- Replace placeholder imagery with real farm photography where needed.
-- Add or confirm contact/newsletter forms.
-- Decide whether PostCSS tooling should be documented with package metadata.
+- Review the rebuild (content spot-checks, visual pass).
+- Merge `feature/astro-rebuild` to the default branch.
+- Repoint the host build (Netlify per `CLAUDE.md`) from Hugo to
+  `npm run build` with `dist/` as the publish directory.
+- After a settling period, remove Hugo directories (`content/`, `themes/`,
+  `archetypes/`, `resources/`, `static/admin/`, stale `public/`,
+  `postcss.config.js`, `hugo.toml`) in a dedicated cleanup commit.
 
 ## Blockers/Risks
 
-- Validation depends on Hugo being installed locally.
-- `postcss.config.js` exists without inspected package metadata in the repo root.
-- `public/` is present; confirm whether generated output should remain versioned before broad build changes.
+- `public/` contains stale Hugo build output; it stays out of the Astro build
+  only because `publicDir` points to `public-assets/`. Removing `public/` is
+  part of the post-merge cleanup.
+- The legacy CommonJS `postcss.config.js` is incompatible with Vite under
+  `"type": "module"`; Astro bypasses it via an inline PostCSS config.
+- Sveltia CMS (`static/admin/`) is Hugo-oriented and not part of the Astro
+  build; content editing workflow needs a decision post-merge.
+- No sitemap/RSS yet in the Astro build (Hugo generated both).
 
 ## Last Worked On
 
-- 2026-07-07: Refined OKF documentation format, added README, and updated validation notes.
+- 2026-10-23: Full Astro rebuild implemented and building cleanly on
+  `feature/astro-rebuild`; docs updated.
 
 ## Suggested First Command
 
 ```bash
-hugo server -D
+cd /home/ubuntu/projects/sites/winkky-farms && npm run build
 ```

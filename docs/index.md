@@ -9,12 +9,13 @@ timestamp: 2026-07-07T00:00:00Z
 
 # Winkky Farms Docs
 
-OKF documentation for the Winkky Farms Hugo site.
+OKF documentation for the Winkky Farms site. A modern Astro 7 rebuild of the
+Hugo site is in progress on the `feature/astro-rebuild` branch.
 
 ## Start Here
 
 - [Status](status.md) - current phase, completed work, next tasks, blockers, and suggested resume command.
-- [Setup](setup.md) - Hugo preview, build, and lightweight validation commands.
+- [Setup](setup.md) - Astro install/build/preview commands plus Hugo preview and validation commands.
 
 ## Deeper Context
 
