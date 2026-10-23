@@ -22,3 +22,4 @@
 
 - Bootstrapped OKF documentation.
 - Added repo-specific agent instructions alongside existing `CLAUDE.md`.
+- 2026-10-23 — Documented relationship to Streetcats content platform: standalone stays as fallback/design source; platform theme tracked in content-platform feature/streetcats-themes.

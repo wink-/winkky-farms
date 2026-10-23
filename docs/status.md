@@ -62,3 +62,12 @@ files remain untouched; the Astro stack is purely additive. Work lives on
 ```bash
 cd /home/ubuntu/projects/sites/winkky-farms && npm run build
 ```
+
+
+## Streetcats platform relationship (2026-10-23)
+
+This standalone build remains the site design reference and fallback. A theme port for
+the Streetcats content platform is tracked in `sites/content-platform` branch
+`feature/streetcats-themes`, which renders Streetcats-pinned publications through the
+publishing contract (fixture builds today). Keep this standalone build until the
+platform theme is live and verified.
